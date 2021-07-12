@@ -1,0 +1,48 @@
+/* footer style */
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 50vh;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+.servicio:hover{
+    color: #d62828;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.instagram{
+    color: white;
+    text-decoration: none   ;
+}
+
+.instagram:hover{
+    color: #d62828;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.correo{
+    color: white;
+    text-decoration: none;
+}
+
+.correo:hover{
+    color: #d62828;
+    transition: color 0.5s;
+}
+
+.contacto{
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

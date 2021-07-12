@@ -1,0 +1,12 @@
+/* navbar styles */
+
+#navbar{
+    background-color: gray;
+    height: auto;
+    max-width: 80vw;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+/* estilos de trabajo de ejemplo */
+
+#trabajos{
+    background-color: #000;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#weblink{
+    display: flex;
+    justify-content: center;
+}
+
+.travxls-img{
+    border-radius: 10px;
+}
+
+#weblink-info{
+    margin: 1rem 1rem;
+    padding: 2rem;
+}
+
+.informacion-title{
+    color: white;
+}
+
+.informacion-text{
+    color: white;
+}
+
+.travxls-link{
+    text-decoration: none;
+    color: white;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.travxls-link:hover{
+    color: #d62828;
+    transition: color 0.5s;
+}
+
+
+.codigo{
+    font-size: 1.2rem;
+}
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    .travxls-img{
+        height: 140px;
+    }
+}

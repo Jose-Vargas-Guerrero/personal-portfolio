@@ -1,0 +1,160 @@
+:root{
+    --color-destello: #d62828;
+}
+
+/* habilidades-container styles */
+#habilidades-container{
+    padding: 0px;
+    height: auto;
+}
+
+/* banner estilos */
+.banner{
+    height: auto;
+    padding: 2rem 2rem;
+    max-width: 100vw;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Habilidades container */
+.habilidades{
+    padding: 2rem;
+    background-color: #000;
+    color: white;
+    height: auto;
+    max-width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* mouse encima de los iconos  */
+.fab{
+    cursor: pointer;
+}
+
+/* iconos de habilidades styles */
+
+.habilidad{
+    width: auto;
+    height: auto;
+    margin: 2rem 2rem;
+    font-size: 60px;
+} 
+
+.habilidad:hover{
+    color: var(--color-destello);
+    transition: color 0.4s;
+}
+
+.habilidades-titulo{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.complementos{
+    text-align: center;
+}
+
+/* content styles */
+.frontend{
+    margin: 1rem;
+    text-align: center;
+}
+
+.backend{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.complementos{
+    margin: 1.5rem;
+}
+
+.general{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+/* descripcion style */
+
+.descripcion{
+    background-color: #000;
+    max-width: 100vw;
+    height: auto;
+    padding: 3rem 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* primera descripcion */
+
+.websites{
+    margin: 0rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.website-title{
+    color: #fff;
+}
+
+.website-text{
+    color: #fff;
+    line-height: 2rem;
+}
+
+/* segunda-descripcion */
+
+.tienda-app{
+    margin: 0rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.tienda-title{
+    color: #fff;
+}
+
+.tienda-text{
+    color: #fff;
+    line-height: 2rem;
+}
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    .habilidades{
+        padding: 1.5rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .banner-title{
+        font-size: 2.3rem;
+    }
+
+    .descripcion{
+        padding: 1rem 1rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

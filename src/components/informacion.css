@@ -1,0 +1,68 @@
+/* estilos de contenedor */
+#informacion-container{
+    height: 100vh;
+    background-color: #000;
+
+    display: flex;
+}
+
+/* columna de imagen stilos */
+
+#col-imagen{
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    border-radius: 10px;
+}
+
+/* columna de descripcion */
+
+#col-texto{
+    padding: 0rem 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: start;
+}
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    #col-imagen{
+        padding: 1rem ;
+    }
+
+    #col-texto{
+        padding: 0rem 3rem;
+    }
+
+    .nombre{
+        font-size: 2rem;
+    }
+
+    .texto{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+}
+
