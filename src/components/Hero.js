@@ -11,7 +11,7 @@ function Hero() {
             opacity: 0
         },
         visible: {
-            opacity: 0.8, scale: 1,
+            opacity: 0.7, scale: 1,
             transition: { delay: 3, duration: 2.5, yoyo: Infinity }
         }
     }
@@ -21,7 +21,7 @@ function Hero() {
             opacity: 0
         },
         visible: {
-            opacity: 0.8, scale: 1,
+            opacity: 0.7, scale: 1,
             transition: { delay: 5, duration: 3, yoyo: Infinity }
         }
     }
@@ -31,7 +31,7 @@ function Hero() {
             opacity: 0
         },
         visible: {
-            opacity: 0.8, scale: 1,
+            opacity: 0.7, scale: 1,
             transition: { delay: 7, duration: 2, yoyo: Infinity }
         }
     }
@@ -41,7 +41,7 @@ function Hero() {
             opacity: 0
         },
         visible: {
-            opacity: 0.8, scale: 1,
+            opacity: 0.7, scale: 1,
             transition: { delay: 9, duration: 2, yoyo: Infinity }
         }
     }

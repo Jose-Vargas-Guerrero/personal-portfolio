@@ -144,9 +144,36 @@
         flex-direction: column;
         justify-content: space-around;
     }
+    
 
     .banner-title{
         font-size: 2.3rem;
+        margin-top: 3rem;
+    }
+
+    .descripcion{
+        padding: 1rem 1rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .habilidades{
+        padding: 1.5rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+
+    .banner-title{
+        font-size: 2.6rem;
+        margin-top: 3rem;
     }
 
     .descripcion{
