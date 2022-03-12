@@ -17,11 +17,6 @@ function Habilidades() {
                             <i className="fab fa-css3-alt habilidad"></i>
                             <i className="fab fa-js habilidad"></i>
                     </div>
-                        
-                    <div className="backend">
-                        <h1 className="habilidades-titulo">Backend</h1>
-                        <i class="fab fa-node habilidad"></i>
-                    </div>
                     <div className="complementos">
                         <h1 className="habilidades-titulo">Librerias y Frameworks</h1>
                             <i class="fab fa-bootstrap habilidad"></i>
@@ -40,14 +35,13 @@ function Habilidades() {
                         <h2 className="website-title">Sitios web  y mas</h2>
                             <p className="website-text">Ya sea un Sitio Web para elevar el renombre de tu marca,
                             o hasta algo más complejo como un E-Commerce o Web App, todo puede ser creado con
-                            una diseño y desarrollo adecuado.</p>
+                            un diseño y desarrollo adecuado.</p>
                     </div>
                     <div className="tienda-app">
                         <h2 className="tienda-title">Marketing Digital</h2>
-                            <p className="tienda-text">No solo basta con tener tu propio sitio y ya,
-                            también hay que crear y aumentar el flujo de visitas que tenga ya sea utilizando herramientas
-                            de análisis o posicionamiento SEO, el crear interacción usuario marca aumenta las visitas. Ya sea
-                            implementando un chat de ayuda o intercambiando información entre e-mails.</p>
+                            <p className="tienda-text">Es importante que tu sitio capture el trafico de visitas, con
+                            estrategias como tener un buen posicionamiento SEO, utilizar herramientas de publicidad,
+                            o implementar secciones dinámicas en el sitio web como un chat de ayuda.</p>
                     </div>
             </div>
         </div>
