@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './hero.css';
 
-function Hero() {
+function Hero({title,slogan,button}) {
 
     /* animaciones de destellos */
 
@@ -56,9 +56,9 @@ function Hero() {
             <motion.div className="rounded-circle destello4" variants={Destello4} initial="hidden" animate="visible"></motion.div>
 
             {/* contenido */}
-            <h1 className="hero-title">Desarrollador Web</h1>
-            <p className="hero-text">Un buen espacio en la web te garantiza mejoras para tu marca</p>
-            <a href="#informacion-container" className="hero-link">Descubre</a>
+            <h1 className="hero-title">{title}</h1>
+            <p className="hero-text">{slogan}</p>
+            <a href="#informacion-container" className="hero-link">{button}</a>
 
             {/* destello */}
             <motion.div className="rounded-circle destello5" variants={Destello3} initial="hidden" animate="visible"></motion.div>
